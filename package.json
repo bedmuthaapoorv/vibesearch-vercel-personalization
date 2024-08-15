@@ -1,0 +1,43 @@
+{
+  "name": "vibesearch",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@eduardosmarcal/webcam-easy": "^2.0.3",
+    "@supabase/auth-helpers-nextjs": "^0.9.0",
+    "@supabase/auth-helpers-react": "^0.4.2",
+    "@supabase/supabase-js": "^2.39.7",
+    "antd": "^5.14.1",
+    "axios": "^1.6.7",
+    "framer-motion": "^11.1.2",
+    "next": "14.1.0",
+    "next-pwa": "^5.6.0",
+    "prop-types": "^15.8.1",
+    "react": "^18",
+    "react-bootstrap": "^2.10.1",
+    "react-dom": "^18",
+    "react-lottie": "^1.2.4",
+    "react-media-recorder": "^1.6.6",
+    "react-multi-carousel": "^2.8.5",
+    "react-responsive-carousel": "^3.2.23",
+    "react-toastify": "^10.0.5",
+    "webcam-easy": "^1.1.1",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-lottie": "^1.2.10",
+    "typescript": "^5"
+  }
+}

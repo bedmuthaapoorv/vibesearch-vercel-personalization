@@ -1,0 +1,27 @@
+.formElement{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+}
+.formElement__label {
+    font-size: 16px;
+    align-self: flex-start;
+}
+
+.input__element {
+    background: #E7E7E7;
+    width: 400px;
+    height: 7vh;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.formElement__tip {
+    font-size: 12px;
+    color: #6A6464;
+}

@@ -1,0 +1,92 @@
+.homescreen__parent {
+    position: relative;
+    width: 430px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.container {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+    width: 430px;
+    height: 100vh;
+    
+    align-items: center;
+    
+}
+.container__padding{
+    height: 0vh;
+    width: 356px;
+}
+@media screen and (max-width: 500px) {
+    .homescreen__parent {
+        width: 100vw;
+        height: 100vh;
+    }
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+}
+
+
+.homescreen{
+    height: 311px;
+    width: 356px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homescreen__content {
+    display: flex;
+    flex-direction: column;
+    height: 182px;
+    width: 271px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.content__smallText {
+    font-size: 16px;
+    width: 244px;
+    text-align: center;
+}
+
+.content__mediumText {
+    font-size: 18px;
+    text-align: center;
+}
+
+.content__suggestionBoxes {
+    width: 138px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.suggestionBoxes__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* //Update */
+
+.homescreen__userName {
+    font-family: 'Montserrat';
+    background: linear-gradient(to right, #E54D4D, #A342FF);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0;
+  }
+  

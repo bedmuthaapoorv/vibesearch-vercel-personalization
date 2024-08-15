@@ -1,0 +1,13 @@
+.searchresultelements{
+    display: flex;
+    width: 356px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow-x: visible;
+}
+.productWrapper:hover {
+    cursor: pointer;
+}
+.productWrapper{
+    width: 170px;
+}

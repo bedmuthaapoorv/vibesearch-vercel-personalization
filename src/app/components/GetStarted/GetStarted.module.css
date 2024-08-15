@@ -1,0 +1,89 @@
+.getStarted{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 430px;
+    margin: 0;
+    background-color: white;
+}
+.image__component{
+    max-width: 430px;
+}
+@media screen and (max-width:500px) {
+    .getStarted{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        background-color: white;
+    }
+    .image__component{
+        max-width: 100vw;
+        width: 100vw;
+    }
+}
+.getStarted__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.getStarted__image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.getStarted__buttonsFlex{
+    display: flex;
+    justify-content: space-around;
+}
+.getStarted__buttons{
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.getStartedbuttons {
+    width: 254px;
+    height: 40px;
+}
+
+.getStarted__loginButton {
+    background-color: white;
+    color: #000000;
+}
+
+.getStarted__getStartedButton {
+    background-color: #000000;
+    color: white;
+}
+
+.getStarted__termsAndConditions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 193px;
+    max-height: 34px;
+}
+.termsAndConditions__content{
+    font-size: 11px;
+    color: #8F8A8A;
+    width: 60vw;
+    text-align: center;
+}
+
+.getStarted__googleSignIn{
+    display: flex;
+    max-width: 430px;
+    align-items: center;
+    justify-content: center;
+}
+.googleSignIn__googleSignInImage{
+    max-width: 261px;
+    max-height: 53px;
+}

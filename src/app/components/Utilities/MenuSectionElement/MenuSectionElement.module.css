@@ -1,0 +1,23 @@
+.menuSectionElement{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    height: 8vh;
+}
+.menuSectionElement__image{
+
+}
+.menuSectionElement__title{
+    width:25vw;
+}
+.menuSectionElement__buttonLabel{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 18vw;
+    border-radius: 13.5px;
+    color: white;
+    height: 3.1vh;
+    align-items: center;
+}

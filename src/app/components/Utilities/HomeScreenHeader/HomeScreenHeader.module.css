@@ -1,0 +1,21 @@
+.homescreen__header {
+    display: flex;
+    width: 360px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5vh;
+}
+@media screen and (max-width: 500px) {
+    .homescreen__header{
+        width: 90vw;
+    }
+}
+.header__menuSandwichIcon {
+    height: 21px;
+    cursor: pointer;
+}
+
+.header__newSearch {
+    height: 24px;
+    cursor: pointer;
+}

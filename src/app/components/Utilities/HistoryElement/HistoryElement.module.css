@@ -1,0 +1,19 @@
+.historyElement{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.historyElement__title{
+    display: flex;
+    flex-direction: column;
+    height: 4vh;
+    justify-content: center;
+    width: 70vw;
+}
+
+.historyElement__closingIcon{
+    height: 40px;
+    width: 40px;
+}

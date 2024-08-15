@@ -1,0 +1,62 @@
+.searchResultElement__wrapper{
+    padding-bottom: 17px;
+    position: relative;
+}
+.searchResultElement{
+    width: 170px;
+    height: 239px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow:5px 5px 4px 0 rgba(229, 229, 229, 0.4);
+    border-radius: 5px;
+    overflow-y: hidden;
+    overflow-x: visible;
+}
+.searchResultElement__likeButton{
+    position: absolute;
+    left: 130px;
+    top: 5px;
+    z-index: 2;
+    
+}
+.searchResultElement__imageFlex{
+    width: 170px !important;
+    display: flex !important;
+    justify-content: center;
+}
+.searchResultElement__image{
+    align-self: center;
+    height: 167px;
+}
+.searchResultElement__brandname{
+    font-weight: 700;   
+    font-size: 12px; 
+    text-overflow: ellipsis;
+    /* Both of the following are required for text-overflow */
+    white-space: nowrap;
+    overflow: hidden;
+    width: 160px;
+}
+.searchResultElement__price{
+    font-weight: 700;
+    font-size: 12px;
+}
+.searchResultElement__productTitle{
+    color: #4E4E4E;
+    font-size: 12px;
+    height: 28px;
+    width: 160px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Both of the following are required for text-overflow */
+    white-space: nowrap;
+}
+.searchResultElement__content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 72px;
+    padding: 10px;
+}

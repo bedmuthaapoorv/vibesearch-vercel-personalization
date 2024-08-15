@@ -1,0 +1,66 @@
+.rightMenu {
+  width: 375px;
+  height: 100vh;
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+}
+.rightMenu .rightMenu__brands {
+  display: flex;
+  flex-direction: column;
+  margin-top: 38px;
+  justify-content: center;
+}
+.rightMenu .rightMenu__brands .rightMenu__BrandLabel {
+  margin-left: 56px;
+}
+.rightMenu .rightMenu__brands .rightMenu__brandsFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 350px;
+  margin-top: 38px;
+  align-self: center;
+  height: 75vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* Firefox */
+}
+.rightMenu .rightMenu__brands .rightMenu__brandsFlex .rightMenu__brandButton {
+  width: 80px;
+  height: 36px;
+  padding: 7px 15px 7px 15px;
+  border-radius: 16px;
+  background-color: #D9D9D9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38px;
+}
+.rightMenu .rightMenu__brands .rightMenu__brandsFlex::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+.rightMenu .rightMenu__header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 56px;
+}
+.rightMenu .rightMenu__header .rightMenu__headerLeft {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rightMenu .rightMenu__header .rightMenu__applyButton {
+  width: 110px;
+  height: 36px;
+  padding: 7px 15px 7px 15px;
+  border-radius: 16px;
+  border-width: 1px;
+  border-color: #A8A8A8;
+  border-style: solid;
+  background-color: white;
+}/*# sourceMappingURL=RightMenu.module.css.map */
