@@ -12,7 +12,9 @@ export default function HomeScreenHeader(
   isHomescreen: boolean = false,
   setOpenFilter: any
 ) {
-    let [animationLottie, setAnimationLottie]=useState<any>(Resources.personalizationGradient)
+  let [animationLottie, setAnimationLottie] = useState<any>(
+    Resources.personalizationGradient
+  );
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -50,16 +52,20 @@ export default function HomeScreenHeader(
           <Utilities.VibeLogo></Utilities.VibeLogo>
         </Link>
       )}
-     {isHomescreen?<></> : <div onClick={
-        ()=>{
-            setAnimationLottie(Resources.personalized)
-            setTimeout(()=>{
-                window.location.reload()
-            }, 1000)
-        }
-     }>
-       <Lottie options={defaultOptions} height={30} width={30}></Lottie>
-      </div>}
+      {isHomescreen ? (
+        <></>
+      ) : (
+        <div
+          onClick={() => {
+            setAnimationLottie(Resources.personalized);
+            setTimeout(() => {
+              window.location.reload();
+            }, 1000);
+          }}
+        >
+          <Lottie options={defaultOptions} height={30} width={30}></Lottie>
+        </div>
+      )}
       {!isGuest ? (
         <Link href={"/components/SearchResults?query=wishlist"}>
           <img
@@ -79,14 +85,17 @@ export default function HomeScreenHeader(
           ></img>
         </div>
       )}
-      <img
-        className={`${styles.header__newSearch}`}
-        src={Resources.filterIcon.src}
-        onClick={() => {
-          setOpenFilter ? setOpenFilter(true) : "";
-        }}
-      ></img>
-      
+      {isHomescreen ? (
+        <></>
+      ) : (
+        <img
+          className={`${styles.header__newSearch}`}
+          src={Resources.filterIcon.src}
+          onClick={() => {
+            setOpenFilter ? setOpenFilter(true) : "";
+          }}
+        ></img>
+      )}
     </div>
   );
 }
